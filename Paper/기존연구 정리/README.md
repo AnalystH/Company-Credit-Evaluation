@@ -109,7 +109,7 @@
 
 * 모형 적합
 
-  * _RF, MDA, ANN, MSVM_에 적합시킴
+  * _RF, MDA, ANN, MSVM_ 에 적합시킴
     * 반응 변수는 범주가 4개인 범주형 변수 => 다항 모델링
 
 
@@ -138,13 +138,13 @@
 
 ##### SVM을 이용한 지능형 신용평가시스템 개발(2005)
 
-* _Support Vector Machine(SVM)_의 당위성
+* _Support Vector Machine(SVM)_ 의 당위성
   * ANN에 비해 검증셋에 대한 예측력이 뛰어나고 로컬 미니마 문제를 해결할 수 있다
   * 커널함수로 polynomial kernel, Radial basis function kernel -> 둘 다 많이 쓰이는 커널
 
 
 * 데이터 
-  * 1335개의 1996~2000 년 동안 중공업 부도 기업 + 1335개의 1999~2000 부도하지 않은 기업
+  * 1335개의 1996 - 2000 년 동안 중공업 부도 기업 + 1335개의 1999 - 2000 부도하지 않은 기업
   * 설명변수는 164개의 재무비율 -> 15개 (t-test + forward selection for logistic)
 
 
